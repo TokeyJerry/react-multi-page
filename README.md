@@ -9,6 +9,9 @@
 $ git clone git@github.com:TokeyJerry/react-multi-page.git --depth=1
 # Or https
 $ git clone https://github.com/TokeyJerry/react-multi-page.git --depth=1
+
+# install
+$ npm install
 ```
 
 ## Contents
