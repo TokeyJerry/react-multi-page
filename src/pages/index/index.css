@@ -1,0 +1,11 @@
+
+.warpper {
+	width: 200px; padding: 50px 20px;
+}
+
+li {
+	cursor: pointer;
+	color: #00a3cf;
+	font-size: 20px; font-weight: bold;
+	margin: 10px 0;
+}

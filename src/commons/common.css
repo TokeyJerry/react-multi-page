@@ -1,0 +1,35 @@
+
+/* ==================================================[重置] */
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, p, section, blockquote, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0; }
+ul, ol { list-style: outside none; }
+fieldset, img, input { border: none; }
+table { table-layout: fixed; border-collapse: collapse; border-spacing: 0; }
+body, small, sup, sub, button, input, textarea, select { font: 12px/1.5 "PingFangSC-Light", "Microsoft YaHei",Verdana, Helvetica, Arial, sans-serif; font-weight: light;}
+h1, h2, h3, h4, h5, h6,strong { font-size: 100%;font-weight: normal; }
+address, cite, dfn, em, var, i { font-style: normal; }
+code, kbd, pre, samp { font-family: Consolas, Courier, SimSun, monospace; }
+
+body {
+  font-size: 16px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {display: block;}
+a { text-decoration:none; color:#000;}
+
+a:hover { text-decoration:none; }
+body {font-size: 16px;line-height: 22px;}
+
+button{
+  border:none; outline: none; background:none;
+}
+input{
+  border:none; outline:medium;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+
+

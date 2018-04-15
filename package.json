@@ -1,0 +1,57 @@
+{
+  "name": "react-test",
+  "version": "1.0.0",
+  "description": "react-node-webpack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "export Project=web NODE_ENV=development && nodemon app.js ",
+    "build": "rm -rf ./client && export NODE_ENV=production && webpack --config ./webpack.config.js",
+    "start": "pm2 start app.js",
+    "stop": "pm2 stop app.js"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "webpack",
+    "babel"
+  ],
+  "author": "tie jianwen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-hbs": "^1.0.4",
+    "express-session": "^1.15.6",
+    "pm2": "^2.10.2",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^2.30.1",
+    "nodemon": "^1.17.3",
+    "react-hot-loader": "^3.1.3",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-middleware": "^2.0.6",
+    "webpack-hot-middleware": "^2.21.2"
+  }
+}
