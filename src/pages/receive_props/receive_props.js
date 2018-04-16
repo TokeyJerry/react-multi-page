@@ -22,18 +22,14 @@ class Child extends Component {
 		}
 		return false;
 	}
-
-	render () {
-		console.log('我被渲染了');
-		return (
-			<div>
-				<h2>name: {this.state.name}</h2>
-				<p>desc: {this.props.desc}</p>
-			</div>
-		)
+houldComponentUpdate (nextProps) {
+		console.log(nextProps.desc === this.props.desc)
+		if (nextProps.desc === this.props.desc) {
+			return false;
+		}
+		return true;
 	}
 }
-
 class Main extends Component {
 	constructor () {
 		super();
